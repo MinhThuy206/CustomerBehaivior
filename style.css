@@ -1,0 +1,41 @@
+.title{
+    text-align: center;
+    border-bottom: solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Đổi màu nền của tiêu đề nếu cần */
+    z-index: 999; /* Đảm bảo tiêu đề hiển thị trên mọi nội dung khác */
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 56px;
+}
+
+.menu-option{
+    background-color: #f9f9f9;
+    padding: 0 0px;
+}
+
+.option{
+    border: solid #ccc 2px;
+    width: 90%;
+    height: 60px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px ;
+}
+
+.option:hover{
+    background-color: blanchedalmond;
+}
+
+.total_order{
+    border-radius: 5px;
+    text-align: center;
+}
